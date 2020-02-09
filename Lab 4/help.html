@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Favourite Cheese</title>
+    <title>Help With Cheese</title>
 </head>
 <body>
 <!--START OF HEADER-->
@@ -24,18 +24,26 @@
 
 <!--MAIN START-->
 <main>
-<h2>My Favourite Cheese</h2>
-    <p>My favourite cheese in order are:</p>
+    <h2>Help With Cheese</h2>
 
-    <ul>
-        <li>Cheddar</li>
-        <li>Brie</li>
-        <li>Gouda</li>
-        <li>Feta</li>
-        <li>Philadelphia</li>
-        <li>Cheese in a can</li>
-        <li>Those really cheap slices from Tesco</li>
-    </ul>
+<form>
+    <fieldset>
+        Name:<br>
+        <input type="text" name="name" required>
+         <br>
+        Email:<br>
+        <input type="email" name="email" required>
+        <br>
+        Favourite Cheese:<br>
+        <input type="radio" name="cheese" value="Feta"> Feta<br>
+        <input type="radio" name="cheese" value="Gouda"> Gouda<br>
+        <input type="radio" name="cheese" value="Other"> Other<br>
+        What is your cheese problem? <br>
+        <textarea name="message" rows="10" cols="30">
+        </textarea>
+        <input type="submit" value="Submit" />
+    </fieldset>
+</form>
 </main>
 <!--MAIN END-->
 
